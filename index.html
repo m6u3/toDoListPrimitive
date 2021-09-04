@@ -10,22 +10,23 @@
 
 </head>
 <body>
-    <div class="container mt-4 bg-secondary text-light">
+    <div class="container mt-4 bg-secondary text-white" id="container1">
         <div class="row">
             <div class="col-sm-12 d-flex justify-content-center">
                 <h1>Welcome to Your: to do List</h1>
             </div>
             <div class="row pb-2">
-                <div class="col-sm-5 d-lg-flex justify-content-end">
-                    <p>Please add item :</p>
+                <div class="col-sm-4 d-md-flex justify-content-end align-items-center">
+                    <p class="fs-5">Please add item :</p>
                 </div>
-                <div class="col-sm-5 col-lg-2 d-lg-flex justify-content-start align-items-center mb-1 inputItem"><input type="text" placeholder="Add Item" ></div>
-                <div class="col-sm-2 d-lg-flex justify-content-start align-items-center text-muted"><button class="btn btn-success">add item</button></div>
+                <div class="col-sm-4 col-md-2 d-md-flex justify-content-start align-items-center mb-1 inputItem"><input type="text" placeholder="Add Item" id="item"></div>
+                <div class="col-sm-4 d-md-flex justify-content-end align-items-center text-muted"><button class="btn btn-success text-white" onclick="addItem()">Add Item</button></div>
             </div>
         </div>
     </div>
     
         
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
